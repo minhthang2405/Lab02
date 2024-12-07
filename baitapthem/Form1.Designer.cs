@@ -72,6 +72,11 @@
             this.tongtien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghechon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.khuvuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.total_Nam = new System.Windows.Forms.TextBox();
+            this.total_Nu = new System.Windows.Forms.TextBox();
             this.groupBoxSeats.SuspendLayout();
             this.rButtonNu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_KhachHang)).BeginInit();
@@ -369,6 +374,10 @@
             // rButtonNu
             // 
             this.rButtonNu.BackColor = System.Drawing.Color.Moccasin;
+            this.rButtonNu.Controls.Add(this.total_Nu);
+            this.rButtonNu.Controls.Add(this.total_Nam);
+            this.rButtonNu.Controls.Add(this.label7);
+            this.rButtonNu.Controls.Add(this.label6);
             this.rButtonNu.Controls.Add(this.txtSDT);
             this.rButtonNu.Controls.Add(this.txtTenKH);
             this.rButtonNu.Controls.Add(this.rbNu);
@@ -487,8 +496,9 @@
             this.ngaymua,
             this.tongtien,
             this.ghechon,
-            this.khuvuc});
-            this.dataGridView_KhachHang.Location = new System.Drawing.Point(24, 172);
+            this.khuvuc,
+            this.gioitinh});
+            this.dataGridView_KhachHang.Location = new System.Drawing.Point(10, 138);
             this.dataGridView_KhachHang.Name = "dataGridView_KhachHang";
             this.dataGridView_KhachHang.RowHeadersWidth = 51;
             this.dataGridView_KhachHang.RowTemplate.Height = 24;
@@ -536,6 +546,45 @@
             this.khuvuc.MinimumWidth = 6;
             this.khuvuc.Name = "khuvuc";
             this.khuvuc.Width = 125;
+            // 
+            // gioitinh
+            // 
+            this.gioitinh.HeaderText = "GioiTinh";
+            this.gioitinh.MinimumWidth = 6;
+            this.gioitinh.Name = "gioitinh";
+            this.gioitinh.Width = 125;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(422, 445);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Tổng Nam";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(578, 445);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 16);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Tổng Nữ";
+            // 
+            // total_Nam
+            // 
+            this.total_Nam.Location = new System.Drawing.Point(499, 439);
+            this.total_Nam.Name = "total_Nam";
+            this.total_Nam.Size = new System.Drawing.Size(48, 22);
+            this.total_Nam.TabIndex = 12;
+            // 
+            // total_Nu
+            // 
+            this.total_Nu.Location = new System.Drawing.Point(654, 439);
+            this.total_Nu.Name = "total_Nu";
+            this.total_Nu.Size = new System.Drawing.Size(48, 22);
+            this.total_Nu.TabIndex = 13;
             // 
             // frm_banvechieuphim
             // 
@@ -608,6 +657,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tongtien;
         private System.Windows.Forms.DataGridViewTextBoxColumn ghechon;
         private System.Windows.Forms.DataGridViewTextBoxColumn khuvuc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gioitinh;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox total_Nu;
+        private System.Windows.Forms.TextBox total_Nam;
     }
 }
 

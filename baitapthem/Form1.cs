@@ -33,6 +33,7 @@ namespace baitapthem
             InitializeSeatButtons();
             LoadDataFromDatabase();
             dataGridView_KhachHang.SelectionChanged += DataGridView_KhachHang_SelectionChanged;
+            UpdateGenderCounts(); // Add this line
         }
 
         private void InitializeSeatButtons()
@@ -58,21 +59,44 @@ namespace baitapthem
             var khachHangs = db.KhachHang.Include("HoaDon").Include("Ghe").Include("KhuVuc").ToList();
             foreach (var kh in khachHangs)
             {
-                var tongTien = kh.Ghe.Sum(g => giaGhe[g.SoGhe]);
-                var hoaDon = kh.HoaDon.FirstOrDefault();
-                var ngayMua = hoaDon?.NgayMua.ToString("dd/MM/yyyy") ?? "N/A"; // Get the real purchase date
-                var gioMua = hoaDon?.GioMua.ToString(@"hh\:mm\:ss") ?? "N/A"; // Get the real purchase time
-                var tenKhuVuc = kh.KhuVuc?.TenKhuVuc ?? "N/A"; // Get the KhuVuc name
-
-                dataGridView_KhachHang.Rows.Add(kh.MaKhachHang, kh.TenKhachHang, $"{ngayMua} {gioMua}", tongTien, string.Join(", ", kh.Ghe.Select(g => g.SoGhe)), tenKhuVuc);
-                foreach (var ghe in kh.Ghe)
+                if (kh.Ghe.Any()) // Check if the customer has bought any seats
                 {
-                    gheDaBan.Add(ghe.SoGhe);
-                    seatButtons[ghe.SoGhe].BackColor = Color.Yellow;
+                    var tongTien = kh.Ghe.Sum(g => giaGhe[g.SoGhe]);
+                    var hoaDon = kh.HoaDon.FirstOrDefault();
+                    var ngayMua = hoaDon?.NgayMua.ToString("dd/MM/yyyy") ?? "N/A"; // Get the real purchase date
+                    var gioMua = hoaDon?.GioMua.ToString(@"hh\:mm\:ss") ?? "N/A"; // Get the real purchase time
+                    var tenKhuVuc = kh.KhuVuc?.TenKhuVuc ?? "N/A"; // Get the KhuVuc name
+
+                    dataGridView_KhachHang.Rows.Add(kh.MaKhachHang, kh.TenKhachHang, $"{ngayMua} {gioMua}", tongTien, string.Join(", ", kh.Ghe.Select(g => g.SoGhe)), tenKhuVuc, kh.GioiTinh);
+                    foreach (var ghe in kh.Ghe)
+                    {
+                        gheDaBan.Add(ghe.SoGhe);
+                        seatButtons[ghe.SoGhe].BackColor = Color.Yellow;
+                    }
                 }
             }
+            UpdateGenderCounts(); // Add this line
         }
+        private void UpdateGenderCounts()
+        {
+            int totalNam = 0;
+            int totalNu = 0;
 
+            foreach (DataGridViewRow row in dataGridView_KhachHang.Rows)
+            {
+                if (row.Cells["GioiTinh"].Value?.ToString() == "Nam")
+                {
+                    totalNam++;
+                }
+                else if (row.Cells["GioiTinh"].Value?.ToString() == "Nữ") // Ensure the string matches exactly
+                {
+                    totalNu++;
+                }
+            }
+
+            total_Nam.Text = totalNam.ToString();
+            total_Nu.Text = totalNu.ToString();
+        }
 
 
 
@@ -209,7 +233,6 @@ namespace baitapthem
                 cmb_Khuvuc.Text = selectedRow.Cells["KhuVuc"].Value?.ToString() ?? string.Empty;
                 txtThanhTien.Text = selectedRow.Cells["TongTien"].Value?.ToString() ?? "0 VND";
 
-
                 // Clear all seat selections
                 foreach (var button in seatButtons.Values)
                 {
@@ -236,8 +259,9 @@ namespace baitapthem
                     }
                 }
             }
-        }
+            UpdateGenderCounts(); // Add this line
 
+        }
     }
     public partial class HoaDon
     {
