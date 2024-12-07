@@ -56,6 +56,10 @@
             this.lblThanhTien = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.rButtonNu = new System.Windows.Forms.GroupBox();
+            this.total_Nu = new System.Windows.Forms.TextBox();
+            this.total_Nam = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.rbNu = new System.Windows.Forms.RadioButton();
@@ -73,10 +77,6 @@
             this.ghechon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.khuvuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.total_Nam = new System.Windows.Forms.TextBox();
-            this.total_Nu = new System.Windows.Forms.TextBox();
             this.groupBoxSeats.SuspendLayout();
             this.rButtonNu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_KhachHang)).BeginInit();
@@ -394,6 +394,38 @@
             this.rButtonNu.TabIndex = 26;
             this.rButtonNu.TabStop = false;
             // 
+            // total_Nu
+            // 
+            this.total_Nu.Location = new System.Drawing.Point(654, 439);
+            this.total_Nu.Name = "total_Nu";
+            this.total_Nu.Size = new System.Drawing.Size(48, 22);
+            this.total_Nu.TabIndex = 13;
+            // 
+            // total_Nam
+            // 
+            this.total_Nam.Location = new System.Drawing.Point(499, 439);
+            this.total_Nam.Name = "total_Nam";
+            this.total_Nam.Size = new System.Drawing.Size(48, 22);
+            this.total_Nam.TabIndex = 12;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(578, 445);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 16);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Tổng Nữ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(422, 445);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Tổng Nam";
+            // 
             // txtSDT
             // 
             this.txtSDT.Location = new System.Drawing.Point(92, 84);
@@ -440,7 +472,13 @@
             "Quận 1",
             "Quận 2",
             "Quận 3",
-            "Quận 7"});
+            "Quận 4",
+            "Quận 5",
+            "Quận 6",
+            "Quận 7",
+            "Quận 8",
+            "Quận 9",
+            "Quận 10"});
             this.cmb_Khuvuc.Location = new System.Drawing.Point(581, 76);
             this.cmb_Khuvuc.Name = "cmb_Khuvuc";
             this.cmb_Khuvuc.Size = new System.Drawing.Size(121, 24);
@@ -553,38 +591,6 @@
             this.gioitinh.MinimumWidth = 6;
             this.gioitinh.Name = "gioitinh";
             this.gioitinh.Width = 125;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(422, 445);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 16);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Tổng Nam";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(578, 445);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 16);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Tổng Nữ";
-            // 
-            // total_Nam
-            // 
-            this.total_Nam.Location = new System.Drawing.Point(499, 439);
-            this.total_Nam.Name = "total_Nam";
-            this.total_Nam.Size = new System.Drawing.Size(48, 22);
-            this.total_Nam.TabIndex = 12;
-            // 
-            // total_Nu
-            // 
-            this.total_Nu.Location = new System.Drawing.Point(654, 439);
-            this.total_Nu.Name = "total_Nu";
-            this.total_Nu.Size = new System.Drawing.Size(48, 22);
-            this.total_Nu.TabIndex = 13;
             // 
             // frm_banvechieuphim
             // 
