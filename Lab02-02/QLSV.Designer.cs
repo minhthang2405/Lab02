@@ -101,6 +101,7 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(161, 22);
             this.txtHoTen.TabIndex = 10;
+           
             // 
             // txtMSV
             // 

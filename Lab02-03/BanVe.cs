@@ -66,6 +66,11 @@ namespace Lab02_3
 
         private void btnChon_Click(object sender, EventArgs e)
         {
+            if (gheDangChon.Count == 0)
+            {
+                MessageBox.Show("Không có ghế nào được chọn", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             int totalAmount = 0;
 
             foreach (int seatNumber in gheDangChon)

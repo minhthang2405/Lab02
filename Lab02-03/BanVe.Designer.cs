@@ -60,7 +60,7 @@
             // 
             // txtThanhTien
             // 
-            this.txtThanhTien.Location = new System.Drawing.Point(319, 422);
+            this.txtThanhTien.Location = new System.Drawing.Point(339, 422);
             this.txtThanhTien.Name = "txtThanhTien";
             this.txtThanhTien.Size = new System.Drawing.Size(332, 22);
             this.txtThanhTien.TabIndex = 15;
@@ -70,7 +70,7 @@
             this.btnKetthuc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKetthuc.Location = new System.Drawing.Point(537, 476);
             this.btnKetthuc.Name = "btnKetthuc";
-            this.btnKetthuc.Size = new System.Drawing.Size(114, 31);
+            this.btnKetthuc.Size = new System.Drawing.Size(134, 43);
             this.btnKetthuc.TabIndex = 14;
             this.btnKetthuc.Text = "Kết thúc";
             this.btnKetthuc.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             this.btnHuy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Location = new System.Drawing.Point(354, 476);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(109, 31);
+            this.btnHuy.Size = new System.Drawing.Size(131, 43);
             this.btnHuy.TabIndex = 13;
             this.btnHuy.Text = "Hủy bỏ";
             this.btnHuy.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             // 
             // btn20
             // 
-            this.btn20.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn20.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn20.Location = new System.Drawing.Point(557, 267);
             this.btn20.Name = "btn20";
             this.btn20.Size = new System.Drawing.Size(78, 55);
@@ -99,7 +99,7 @@
             // 
             // btn15
             // 
-            this.btn15.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn15.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn15.Location = new System.Drawing.Point(557, 190);
             this.btn15.Name = "btn15";
             this.btn15.Size = new System.Drawing.Size(78, 55);
@@ -109,7 +109,7 @@
             // 
             // btn10
             // 
-            this.btn10.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn10.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn10.Location = new System.Drawing.Point(557, 106);
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(78, 55);
@@ -119,7 +119,7 @@
             // 
             // btn5
             // 
-            this.btn5.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(557, 29);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(78, 55);
@@ -129,7 +129,7 @@
             // 
             // btn19
             // 
-            this.btn19.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn19.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn19.Location = new System.Drawing.Point(422, 267);
             this.btn19.Name = "btn19";
             this.btn19.Size = new System.Drawing.Size(78, 55);
@@ -139,7 +139,7 @@
             // 
             // btn14
             // 
-            this.btn14.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn14.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn14.Location = new System.Drawing.Point(422, 190);
             this.btn14.Name = "btn14";
             this.btn14.Size = new System.Drawing.Size(78, 55);
@@ -149,7 +149,7 @@
             // 
             // btn9
             // 
-            this.btn9.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(422, 106);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(78, 55);
@@ -159,7 +159,7 @@
             // 
             // btn4
             // 
-            this.btn4.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(422, 29);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(78, 55);
@@ -169,7 +169,7 @@
             // 
             // btn18
             // 
-            this.btn18.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn18.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn18.Location = new System.Drawing.Point(291, 267);
             this.btn18.Name = "btn18";
             this.btn18.Size = new System.Drawing.Size(78, 55);
@@ -179,7 +179,7 @@
             // 
             // btn13
             // 
-            this.btn13.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn13.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn13.Location = new System.Drawing.Point(291, 190);
             this.btn13.Name = "btn13";
             this.btn13.Size = new System.Drawing.Size(78, 55);
@@ -192,7 +192,7 @@
             this.btnChon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChon.Location = new System.Drawing.Point(181, 476);
             this.btnChon.Name = "btnChon";
-            this.btnChon.Size = new System.Drawing.Size(89, 31);
+            this.btnChon.Size = new System.Drawing.Size(122, 43);
             this.btnChon.TabIndex = 11;
             this.btnChon.Text = "Chọn";
             this.btnChon.UseVisualStyleBackColor = true;
@@ -200,7 +200,7 @@
             // 
             // btn8
             // 
-            this.btn8.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(291, 106);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(78, 55);
@@ -210,7 +210,7 @@
             // 
             // btn3
             // 
-            this.btn3.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(291, 29);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(78, 55);
@@ -220,7 +220,7 @@
             // 
             // btn17
             // 
-            this.btn17.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn17.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn17.Location = new System.Drawing.Point(163, 267);
             this.btn17.Name = "btn17";
             this.btn17.Size = new System.Drawing.Size(78, 55);
@@ -230,7 +230,7 @@
             // 
             // btn12
             // 
-            this.btn12.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn12.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn12.Location = new System.Drawing.Point(163, 190);
             this.btn12.Name = "btn12";
             this.btn12.Size = new System.Drawing.Size(78, 55);
@@ -240,7 +240,7 @@
             // 
             // btn7
             // 
-            this.btn7.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(163, 106);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(78, 55);
@@ -250,7 +250,7 @@
             // 
             // btn2
             // 
-            this.btn2.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(163, 29);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(78, 55);
@@ -260,7 +260,7 @@
             // 
             // btn16
             // 
-            this.btn16.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn16.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn16.Location = new System.Drawing.Point(29, 267);
             this.btn16.Name = "btn16";
             this.btn16.Size = new System.Drawing.Size(78, 55);
@@ -270,7 +270,7 @@
             // 
             // btn11
             // 
-            this.btn11.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn11.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn11.Location = new System.Drawing.Point(29, 190);
             this.btn11.Name = "btn11";
             this.btn11.Size = new System.Drawing.Size(78, 55);
@@ -280,7 +280,7 @@
             // 
             // btn6
             // 
-            this.btn6.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(29, 106);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(78, 55);
@@ -290,7 +290,7 @@
             // 
             // btn1
             // 
-            this.btn1.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(29, 29);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(78, 55);
@@ -329,10 +329,10 @@
             // lblThanhTien
             // 
             this.lblThanhTien.AutoSize = true;
-            this.lblThanhTien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThanhTien.Location = new System.Drawing.Point(177, 421);
+            this.lblThanhTien.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThanhTien.Location = new System.Drawing.Point(158, 414);
             this.lblThanhTien.Name = "lblThanhTien";
-            this.lblThanhTien.Size = new System.Drawing.Size(109, 22);
+            this.lblThanhTien.Size = new System.Drawing.Size(155, 33);
             this.lblThanhTien.TabIndex = 10;
             this.lblThanhTien.Text = "Thành Tiền :\r\n";
             // 
@@ -360,7 +360,7 @@
             this.Controls.Add(this.lblThanhTien);
             this.Controls.Add(this.label1);
             this.Name = "frm_banvechieuphim";
-            this.Text = "w";
+            this.Text = "BÁN VÉ RẠP CHIẾU PHIM";
             this.groupBoxSeats.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
